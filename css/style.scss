@@ -155,20 +155,21 @@ a {
 
     &:hover {
         color: black !important;
-        border-bottom: 1px dotted black ;
+        border-bottom: 1px solid black ;
     }
 
     &.page-link{
       &:hover {
           color: $text-color;
-          border-bottom: 1px dotted black ;
+          border-bottom: 1px solid black ;
       }
     }
     &.postLink{
+      font-size: 25px;
       color: black !important;
       &:hover {
 
-          border-bottom: 1px dotted black ;
+          border-bottom: 1px solid black ;
       }
 
       &:visited {
@@ -179,7 +180,7 @@ a {
       color: black !important;
       &:hover {
 
-          border-bottom: 1px dotted black !important ;
+          border-bottom: 1px solid black !important ;
       }
 
       &:visited {
@@ -339,7 +340,7 @@ pre {
   text-indent: 2px;
 }
 .postContent {
-  padding-top: 3.5em;
+  padding-top: 2.75em;
   text-align: center;
 }
 .postDate {
@@ -356,10 +357,11 @@ pre {
 }
 .postTitle {
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-indent: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /**
  * Site header
@@ -386,7 +388,6 @@ pre {
 .site-description {
   font-size: 14px;
   letter-spacing: 2px;
-  text-indent: 6px;
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
@@ -401,7 +402,8 @@ pre {
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: 5em;
+  padding-top: 3em;
+  text-align: center;
 }
 .page-title {
   text-transform: uppercase;
@@ -723,4 +725,10 @@ pre {
     .vg    { color: #008080 } // Name.Variable.Global
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+// Sreedevi's custom styles
+
+.postExt {
+  text-align: left;
 }

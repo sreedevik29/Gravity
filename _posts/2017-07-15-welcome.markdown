@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Welcome to my blog!"
+date:   2017-07-15
+categories: ["intro", "personal", "blog"]
+author: "Sreedevi Krishnan"
+---
+
+# Title
+
+Hey there!
+
+Okay bye.
